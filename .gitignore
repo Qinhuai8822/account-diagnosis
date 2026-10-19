@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 本地产物 / 敏感信息（防止误提交）
+*.zip
+*.log
+.env
+*.local.json
+*_report*.txt
+*secret*
+*token*
